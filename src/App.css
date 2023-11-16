@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/public/images/b1.jpg);
+}
+.home {
+  background-image: linear-gradient(
+      rgb(0, 0, 20, 0.8) 70%,
+      rgb(0, 0, 20, 0.8) 70%
+    ),
+    url(/public/images/b9.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrap {
+  margin-top: 20%;
+}
+.wrap img {
+  width: 400px;
+  margin-bottom: 60px;
+}
+
+
+
+.intro h4 {
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: #aaa;
+  font-family: "Dancing script", cursive;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #999;
+  background-color: transparent;
+  outline: none !important;
+  font-size: 15px;
+  color: #999;
+}
+
+.error-message {
+  color: crimson;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.enter,
+.download {
+  color: #ccc !important;
+  padding: 5px 30px !important;
+  border-radius: 10px !important;
+  cursor: pointer;
+  font-size: 13px !important;
+  background-color: #071077 !important;
+  letter-spacing: 1px !important;
+  margin-top: 15px !important;
+  transition: 0.4s ease-in-out;
+  font-weight: 600;
+}
+
+.enter:hover {
+  opacity: 0.7;
+}
+
+.nav-brand img {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.heading {
+  background-color: #071077;
+  border-radius: 6px;
+}
+
+.heading h2 {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #dfff;
+  word-spacing: 4px;
+  word-spacing: 10px;
+}
+.content {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  height: 520px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+}
+
+.questions {
+  background: #071077;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 100px;
+  padding-bottom: 30px;
+}
+
+.questions h2 {
+  font-size: 18px;
+  color: #ddd;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media(max-width:650px){
+  .wrap {
+  margin-top: 50%;
+}
+.wrap img {
+  width: 200px;
+  margin-bottom: 60px;
+}
+.questions {
+  height: 140px;
+
+}
+.content {
+  height: 560px;
+}
+}
+
+.options {
+  padding: 10px 20px 0px 20px;
+  border-radius: 10px;
+}
+
+.options li {
+  list-style-type: none;
+  padding: 10px 20px;
+  height: 65px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.options li.active {
+  border: 1px solid #071077;
+  box-shadow: 0 2px 4px rgba(7, 16, 119, 0.3);
+}
+
+.btn {
+  border: none !important;
+}
+
+.btn i {
+  color: #071077;
+  font-weight: bold;
+  font-size: 20px;
+}
+.no {
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.trait h2 {
+  font-size: 15px;
+  color: #454545;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.trait span {
+  font-size: 20px;
+  color: #353535;
+  font-weight: 800;
+}
+
+.details h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #071077;
+  text-transform: uppercase;
+}
+
+.details p {
+  font-size: 15px;
+}
+
+.explanation,
+.suggestion {
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding: 25px;
+  background-color: #f2f2f2;
+}
+
+.footer {
+  background-color: #c5c5c7;
+  margin-top: 50px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.footer a {
+  color: #071077;
+  text-decoration: none;
+}
+
+.footer i {
+  margin-inline: 10px;
+  font-size: 14px;
+  color: #eee;
+  background-color: #071077;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.note {
+  padding: 45px;
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: #e9eae4;
+}
+
+.note span {
+  font-weight: 600;
+  font-size: 17px;
+  color: #000;
+}
+.note p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #000;
+}
+.note a {
+  color: #071077;
+}
+
+.share p {
+  color: #071077;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 20px;
+}
